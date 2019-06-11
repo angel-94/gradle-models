@@ -1,8 +1,1 @@
-pluginManagement {
-	repositories {
-		gradlePluginPortal()
-	}
-}
-println 'This is executed during the initialization phase on module gradle-models.'
-
 rootProject.name = 'gradle-models'

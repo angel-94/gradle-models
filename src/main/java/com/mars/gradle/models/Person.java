@@ -1,6 +1,7 @@
 package com.mars.gradle.models;
 
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 /**
  * @author Manuel Angel Ruiz Sumano - [Meltsan-Team]
@@ -10,6 +11,7 @@ import lombok.Data;
  */
 
 @Data
+@NoArgsConstructor
 public class Person {
 
     private String name;
